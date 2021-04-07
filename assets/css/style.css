@@ -1,0 +1,39 @@
+/* page acceuil */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content-perso {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-perso {
+    padding: 1rem 3rem;
+    font-size: 5rem;
+}
+
+.green-test {
+    background-color: rgb(2, 61, 2);
+}
+
+/* page jeu */
+
+.arriere-plan {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+
+.snake {
+    background-color: rgb(53, 82, 10);
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
